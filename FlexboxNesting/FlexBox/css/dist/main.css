@@ -1,0 +1,271 @@
+body {
+  /*Тело сайта*/
+  margin: 0 auto;
+  max-width: 1260px;
+  /*******Хэдер**********************/
+  /* WHAT CAN YOU RECEIVE  */
+  /*********************\
+					WE DO 
+	\*********************/
+  /*********************\
+			Portfolio 
+	\*********************/
+}
+body a.arrowDown {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fc635e;
+  border: 1px solid #fc635e;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+body a.arrowDown:hover {
+  background: #fc635e;
+  color: white;
+}
+body a.btn {
+  color: #db5854;
+  text-decoration: none;
+  font-size: 22px;
+  border: 3px solid #db5854;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+body a.btn:hover {
+  background: #db5854;
+  color: #fff;
+}
+body .mainText {
+  text-align: center;
+}
+body .mainText h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #fff;
+}
+body .mainText h1 span {
+  color: #db5854;
+}
+body .mainText p {
+  color: #fff;
+  font-size: 22px;
+}
+body h1.main_header {
+  text-decoration: none;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+body h1.main_header span {
+  color: #fc635e;
+}
+body header {
+  background: url('../img/background.png') no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  max-width: 1260px;
+  justify-content: space-around;
+}
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav > a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header nav > a img {
+  padding-right: 15px;
+  vertical-align: middle;
+}
+body header nav .logo:hover img {
+  opacity: 0.7;
+}
+body header nav menu {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+body header nav menu li {
+  padding-left: 15px;
+}
+body header nav menu li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+body header nav menu li a:hover {
+  color: #fc635e;
+  border-bottom: #fc635e 3px solid;
+  padding-bottom: 3px;
+}
+body header .mainText {
+  /*Центральный блок*/
+  text-align: center;
+}
+body header .mainText h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #fff;
+}
+body header .mainText h1 span {
+  color: #db5854;
+}
+body header .mainText p {
+  color: #fff;
+  font-size: 22px;
+}
+body .receive {
+  margin-top: 0;
+  text-align: center;
+  background: white;
+  padding: 70px 50px 10px 50px;
+  color: #868686;
+}
+body .receive p {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+body .icons {
+  display: flex;
+}
+body .icons h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+body .icons p {
+  font-size: 18px;
+}
+body .icons div {
+  padding: 15px;
+}
+body .expand {
+  padding: 100px 150px 15px 150px;
+  background: url(../img/expand.png) no-repeat;
+}
+body .expand .mainText {
+  padding: 70px;
+  margin-bottom: 110px;
+  border: 15px solid rgba(255, 255, 255, 0.1);
+}
+body .expand .mainText h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+body .our_process {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+body .our_process .steps {
+  display: none;
+}
+body .our_process h1,
+body .our_process p {
+  color: gray;
+}
+body .our_process h1 {
+  text-decoration: underline;
+}
+body .our_process p {
+  font-size: 18px;
+}
+body .our_process .back_process {
+  height: 500px;
+  width: auto;
+  background-image: url(../img/Our_process.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body .wedo1,
+body .wedo2,
+body .wedo3 {
+  background: #f2f2f2;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .wedo1 .container,
+body .wedo2 .container,
+body .wedo3 .container {
+  display: flex;
+  justify-content: space-around;
+}
+body .wedo1 h1,
+body .wedo2 h1,
+body .wedo3 h1,
+body .wedo1 h2,
+body .wedo2 h2,
+body .wedo3 h2,
+body .wedo1 p,
+body .wedo2 p,
+body .wedo3 p {
+  color: gray;
+}
+body .wedo1 p,
+body .wedo2 p,
+body .wedo3 p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+body .wedo1 h2,
+body .wedo2 h2,
+body .wedo3 h2 {
+  text-transform: uppercase;
+  border-left: 10px solid #fc635e;
+  padding-left: 5px;
+}
+body .wedo1 .left,
+body .wedo2 .left,
+body .wedo3 .left {
+  min-width: 50%;
+}
+body .wedo1 .right,
+body .wedo2 .right,
+body .wedo3 .right {
+  min-width: 50%;
+}
+body .wedo2 {
+  background-color: white;
+}
+body .wedo2 h2 {
+  border-left: none;
+  padding-left: 0;
+  border-right: 10px solid #fc635e;
+  padding-right: 5px;
+}
+body .wedo2 .left {
+  text-align: right;
+  order: 2;
+}
+body .wedo2 .right {
+  order: 1;
+}
+body .portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .portfolio .container-filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .portfolio .container-filter div {
+  width: 200px;
+  height: 150px;
+  background: #868686;
+  border: 1px solid black;
+}

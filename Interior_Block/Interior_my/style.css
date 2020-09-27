@@ -1,0 +1,789 @@
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: local('Montserrat-Thin'),
+    local('Montserrat-Thin'),
+    url(fonts/Montserrat-Thin.ttf) format('truetype'),
+    url(fonts/Montserrat-Thin.eot?),
+    url(fonts/Montserrat-Thin.woff) format('woff'); 
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'),
+    local('Montserrat-Bold'),
+    url(fonts/Montserrat-Bold.ttf) format('truetype'),
+    url(fonts/Montserrat-Bold.eot?),
+    url(fonts/Montserrat-Bold.woff) format('woff'); 
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular'),
+    local('Montserrat-Regular'),
+    url(fonts/Montserrat-Regular.ttf) format('truetype'),
+    url(fonts/Montserrat-Regular.eot?),
+    url(fonts/Montserrat-Regular.woff) format('woff'); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: local('Montserrat-Light'),
+    local('Montserrat-Light'),
+    url(fonts/Montserrat-Light.ttf) format('truetype'),
+    url(fonts/Montserrat-Light.eot?),
+    url(fonts/Montserrat-Light.woff) format('woff'); 
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+	content: "";				
+	display: table;		/* главенствует над любым блочным элементом */
+	clear: both;
+}
+
+.padload {
+    width: 1366px;
+    height: 5710px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(img/navbar.jpg);
+    position: relative;
+    padding-top: 63px;
+}
+
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+    
+}
+
+.menu-link {
+    /* Style for "HOME" */
+    color: #8c8c8c;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    letter-spacing: 1.4px;
+  }
+  
+  .menu-link:hover {
+    color: #212121;
+    font-family: Montserrat-Bold;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    border-bottom: 3px solid #171717;
+  }
+  
+  .menu-link-aktive {
+    /* Text style for "HOME" */
+    color: #212121;
+    font-family: Montserrat-Bold;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    border-bottom: 3px solid #171717;
+  }
+
+.slider-text {
+    margin-top: 283px;
+}
+
+
+.slider-trending {
+    /* Style for "TRENDING" */
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #43a047;
+    letter-spacing: 1.8px;
+}
+
+.slider-h2 {
+     /* Style for "Fishnet Ch" */
+    
+    font-family: Montserrat-Thin;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+.slider-content {
+    width: 458px;
+    height: 38px;
+    font-family: Montserrat-Light;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Кнопка Oder Us */
+
+.button {
+    font-family: Montserrat-Bold;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    /* Style for "back" */
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    border-radius: 23px;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3,6px;
+}
+
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.product-navbar {
+    margin-top: 120px;
+}
+
+
+.product-link:hover {
+    /* Style for "Featured" */
+    width: 187px;
+    height: 27px;
+    color: #212121;
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 2px 11px 19px 9px;
+    border-bottom: 3px solid #212121;
+}
+
+
+.product-link {
+    /* Style for "New" */
+    width: 80px;
+    height: 25px;
+    color: #6c6c6c;
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 2px 11px 19px 9px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.explore-link {
+    /* Style for "Explore All" */
+    font-family: Montserrat-Bold;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    float: right;
+
+}
+.new {
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.menue-list {
+    list-style-type: none;
+    float: left;
+}
+
+.row-frame-1 {
+    float: left;
+    margin-top: 68px;
+    margin-left: 98px;
+}
+
+.row-frame-1 img {
+    padding-right: 30px;
+}
+
+.box1 {
+    float: left;
+    position: relative;
+}
+
+/* Круглая кнопка со стрелкой */
+
+.bttn {
+    position: absolute;
+    /* Style for "back" */
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    top: 62px;
+    left:111px;
+}
+
+.arrow {
+
+    position: absolute;
+    top: 75px;
+    left: 130px;
+}
+
+/* Заголовок в пустой картинке */
+h5 {
+position: absolute;
+color: #212121;
+font-family: Montserrat-Bold;
+font-size: 22px;
+font-weight: 700;
+line-height: 29.88px;
+top: 129px;
+left: 61px; 
+}
+
+.box1-text {
+position: absolute;
+width: 206px;
+height: 33px;
+color: #6c6c6c;
+font-family: Montserrat-Regular;
+font-size: 14px;
+font-weight: 300;
+line-height: 21.91px;
+text-align: center;
+top:169px;
+left: 32px;
+}
+
+/* Контейнер для двух больших картинок */
+
+.row-frame-2 {
+    width: 1500px;
+    margin-top: 120px;
+    float: left;            /* Для избежания схлопывания */
+    margin-bottom: 119px;
+}
+
+.box2 {
+    float: left;
+    position: relative;
+}
+
+.box3 {
+    position: relative;
+    float: left;
+}
+
+h4 {
+    /* Style for "exclusive" */
+     font-family: Montserrat-Bold;
+     text-transform: uppercase;
+     color: #1e88e5;
+     letter-spacing: 1.8px; 
+  }
+  
+  h1 {
+     height: 28px;
+     color: #212121;
+     font-family: Montserrat-Bold;
+     font-size: 40px;
+     font-weight: 100;
+  }
+
+  
+  p2 {
+    /* Style for "text" */
+  width: 374px;
+  height: 36px;
+  color: #6c6c6c;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24.04px;
+  }
+
+.exclusive2 {
+    position: absolute;
+    top: 224px;
+    left: 51px;
+}
+
+.brand2 {
+    position: absolute;
+    top: 259px;
+    left: 51px;
+}
+
+.box2-text {
+    position: absolute;
+    top: 311px;
+    left: 51px;    
+}
+
+.btn2 {
+    position: absolute;
+    top: 381px;
+    left: 51px;
+}
+
+.exclusive3 {
+    position: absolute;
+    top: 224px;
+    left: 51px;
+}
+
+.brand3 {
+    position: absolute;
+    top: 259px;
+    left: 51px;
+}
+
+.box3-text {
+    position: absolute;
+    top: 311px;
+    left: 51px;    
+}
+
+.btn3 {
+    position: absolute;
+    top: 381px;
+    left: 51px;
+}
+
+/* Trending Products */
+.trending-bar {
+    margin-top: 119px;
+}
+
+.trend {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.row-frame-3 {
+    float: left;
+    margin-top: 68px;
+    margin-left: 98px;
+}
+
+.row-frame-3 img {
+    padding-right: 30px;
+}
+
+.row-frame-4 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 98px;
+}
+
+.row-frame-4 img {
+    padding-right: 30px;
+}
+
+.slider2 {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    position: relative;
+}
+
+/* Container 2 */
+.container2 {
+    float: left;
+    height: 800px;
+    margin-top: 120px;
+}
+
+.slider-dial {
+    /* Style for "Hot deal" */
+    height: 13px;    
+    font-family: Montserrat-Bold;
+    text-transform: uppercase;
+    color: #e53935;
+    letter-spacing: 1.8px;
+}
+
+.dial {
+    float: left;
+}
+
+/* Container-3 */
+
+.container3 {
+    margin-top: 120px;
+    margin-left: 98px;
+    margin-bottom: 120px;
+    float: left;            /* Для избежания схлопывания margin */
+}
+
+.box4 {
+    height: 570px;
+    width: 570px;
+    background-image: url(img/product-1.jpg);
+    float: left;
+    position: relative;
+}
+
+
+.exclusive4 {
+    position: absolute;
+    top: 224px;
+    left: 32px;
+}
+
+.brand4 {
+    position: absolute;
+    top: 259px;
+    left: 32px;
+}
+
+.box4-text {
+    position: absolute;
+    top: 311px;
+    left: 32px;    
+}
+
+.b5 {
+    position: absolute;
+    top: 381px;
+    left: 32px;
+}
+
+.img-top {
+    padding-left: 30px;
+    padding-bottom: 29px;
+}
+
+.img-bottom {
+    padding-left: 30px;
+}
+
+/* Бокс для мобильного приложения */
+
+.box5 {
+    /* Style for "back-img" */
+    width: 100%;
+    height: 516px;
+    background-image: url(img/mobile.jpg);
+    position: relative;
+    float:left;
+}
+
+.mobile-h2 {
+    /* Style for "Find. Foll" */
+    width: 480px;
+    height: 116px;
+    color: #212121;
+    font-family: "Montserrat-Thin";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 160px;
+    left: 98px;
+}
+
+p3 {
+    /* Style for "mobile app" */
+    
+    height: 13px;
+    color: #6c6c6c;
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "mobile app" */
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 120px;
+    left: 98px;
+}
+
+p4 {
+    /* Style for "Save your" */
+
+height: 21px;
+color: #6c6c6c;
+font-family: Montserrat-Regular;
+font-size: 22px;
+font-weight: 300;
+line-height: 24px;
+position: absolute;
+top: 300px;
+left: 98px;
+}
+
+.appstore {
+    position: absolute;
+    top: 356px;
+    left: 98px;
+}
+
+.google {
+    position: absolute;
+    top: 356px;
+    left: 246px; 
+}
+
+/* ****************** FOOTER *********************************** */
+
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+    position: relative;
+    float: left;
+}
+
+/* Верхняя строка заголовков */
+.row-headers {
+    color: #6c6c6c;
+    font-family: Montserrat-Bold;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 120px;
+    left: 98px;
+}
+
+.foter-header {
+    float: left;
+}
+
+.fh1 {
+    margin-right: 168px;
+}
+
+.fh2 {
+    margin-right: 263px;
+}
+
+
+/* Средний блок Инфо *****************************************************/
+.info {
+    height: 110px;
+    width: 1175px;
+    top: 157px;
+    left: 98px;
+    position: absolute;
+}
+
+
+p5 {
+    color: #212121;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+p6 {
+    color: #212121;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.b1 {
+    
+    width: 221px;
+    height: 102px;
+    display: block;
+    float: left;
+    position: unset;    /* Устраняем наследование position: absolut; */
+    margin-right: 80px;
+}
+
+.b2 {
+    width: 132px;
+    height: 62px;
+    display: block;
+    float: left;
+    position: unset;    /* Устраняем наследование position: absolut; */
+    margin-right: 103px;
+}
+
+.b3 {
+    width: 190px;
+    height: 63px;
+    display: block;
+    float: left;
+    position: unset;    /* Устраняем наследование position: absolut; */
+    margin-right: 78px;
+}
+
+.block4 {
+    width: 363px;
+    height: 36px;
+    display: block;
+    float: left;
+    position: unset;    /* Устраняем наследование position: absolut; */
+}
+
+
+p8 {
+    /* Style for "© Copyrigh" */
+    color: #6c6c6c;
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.copyright {
+    top: 336px;
+    left: 98px;
+    position: absolute;
+}
+
+.terms {
+    top: 336px;
+    right: 98px;
+    position: absolute;
+}
+
+/* Social-links */
+p9 {
+    width: 129px;
+    height: 28px;
+    color: #6c6c6c;
+    font-family: icomoon;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 5.6px; 
+}
+
+.social-links {
+    top: 326px;
+    right: 618px;
+    position: absolute;
+}
+
+#email {
+    /* Style for "input" */
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+}
+
+/* Input email */
+input [placeholder] {
+    /* Style for "your email" */
+    width: 128px;
+    height: 12px;
+    color: #6c6c6c;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-left: 19px;
+}
+
+.field {
+    top: 219px;
+    right: 98px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
